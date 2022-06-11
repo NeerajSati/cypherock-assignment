@@ -1,0 +1,70 @@
+.leftbar {
+    flex:3;
+    background-color: #20252c;
+    height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
+}
+.leftbarContent{
+    padding-top: 40px;
+}
+.leftbarItem{
+    height: 50px;
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    align-items: center;
+    margin: 10px;
+    margin-left: 60px;
+}
+.leftbarItem:last-child{
+    border-bottom: none;
+}
+.active{
+    color: #C0996F;
+}
+.leftbarImg{
+    width: 30px;
+    margin-right: 10px;
+}
+.walletswrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+}
+.wallets{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.walletadd{
+    font-weight: 500;
+    border: 1px dashed rgba(97, 97, 97, 1);
+    color: rgba(97, 97, 97, 1);
+    border-radius: 20px;
+    padding: 5px;
+}
+.walletadd:hover{
+    cursor: pointer;
+}
+.leftbarBtnDiv{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 60px;
+    padding-bottom: 30px;
+}
+.leftbarBtn{
+    width: 120px;
+    border-radius: 5px;
+    height: 40px;
+    background-color: 
+    rgba(120, 91, 60, 1);
+    color: rgba(245, 206, 163, 1);
+    border: none;
+    font-size: 16px;
+}
