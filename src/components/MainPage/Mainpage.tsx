@@ -6,6 +6,11 @@ import synchronized from "../../images/synchronized.svg";
 import filter from "../../images/filter.svg";
 import drop from "../../images/drop.svg";
 import sort from "../../images/sort.svg";
+import bitcoinLogo from "../../images/bitcoin.svg";
+import etherLogo from "../../images/ether.svg";
+import etherBlueLogo from "../../images/etherblue.svg";
+import binanceLogo from "../../images/binance.svg";
+import SingleTransaction from "../SingleTransaction/SingleTransaction";
 function Mainpage() {
   return (
     <div className="mainpage">
@@ -36,6 +41,11 @@ function Mainpage() {
           <img src={drop} alt="drop"></img></div>
         </div>
       </div>
+      <SingleTransaction name="BITCOIN" val="BTC 0.0025600" amount="USD 0.5268" src={bitcoinLogo}/>
+      <SingleTransaction name="ETHEREUM" val="ETH 0.0025600" amount="USD 0.5268" src={etherLogo} />
+      <SingleTransaction name="BINANCE COIN" val="BTC 0.0025600" amount="USD 0.5268" src={binanceLogo}/>
+      <SingleTransaction name="BITCOIN" val="BTC 0.0025600" amount="USD 0.5268" src={bitcoinLogo}/>
+      <SingleTransaction name="ETHEREUM" val="ETH 0.0025600" amount="USD 0.5268" src={etherBlueLogo}/>
     </div>
   );
 }
