@@ -1,0 +1,17 @@
+.dialogHeader{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.dialogTitle{
+    flex:12;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.closebtn{
+    position: absolute;
+    right: 30px;
+}

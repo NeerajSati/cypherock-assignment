@@ -51,3 +51,7 @@
 .send img{
     margin-right: 5px;
 }
+
+.send:hover,.receive:hover{
+    cursor: pointer;
+}
