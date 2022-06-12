@@ -14,4 +14,155 @@
 .closebtn{
     position: absolute;
     right: 30px;
+    cursor: pointer;
+}
+.indexDisplay{
+    width: 100%;
+    margin-top: 30px;
+    height: 80px;
+}
+.dialogFlow{
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.dialogFlowComp{
+    width: 18px;
+    height: 18px;
+    background-color: #E19A4C;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    z-index: 2;
+}
+.dialogFlowComp:hover{
+    cursor: pointer;
+}
+.dialogflowName{
+    padding-top: 15px;
+}
+.dialogFlowDetails{
+    font-size: 13px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 20px;
+    color: rgba(162, 161, 161, 1);
+}
+.dialogFlowDetails:last-child{
+    margin-right: 15px;
+}
+.flowLine{
+    position: absolute;
+    top: 138px;
+    left: 110px;
+    width: 62%;
+    border-bottom: 0.5px solid rgba(211, 211, 211, 0.455);
+}
+.dialogFlowCompActive::before{
+content: "";
+width: 32px;
+height: 32px;
+border-radius: 50%;
+border: 1px solid #E19A4C;
+position: absolute;
+}
+.dialogFlowCompVisited{
+    background-color: rgb(224 179 106);
+}
+.dialogFlowCompUpcoming{
+background-color: #13161a;
+border: 0.5px solid rgba(211, 211, 211, 0.455);
+color: rgba(211, 211, 211, 0.455);
+}
+
+
+
+
+
+/* Device Section CSS */
+.receiveInner{
+    margin: 40px;
+    margin-top: 50px;
+}
+.receiveInnerTitle{
+    color: rgba(177, 177, 177, 1);
+    margin-bottom: 20px;
+    margin-left: 25px;
+    font-size: 13px;
+}
+.receiveComp{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.04);
+    margin:15px;
+    height: 45px;
+    border-radius: 10px;
+    color: rgba(164, 169, 214, 1);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.tickicon{
+    position: absolute;
+    right: 60px;
+    cursor: pointer;
+}
+.receiveComp img{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.receiveAmount{
+    background-color: rgba(255, 255, 255, 0.04);
+    margin:25px;
+    height: 80px;
+    border-radius: 10px;
+    color: rgba(225, 154, 76, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    border: 1px dashed rgb(55, 55, 55);
+}
+.receiveAmountCopy{
+    margin:10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.receiveAmountValue{
+    flex:11;
+    display: flex;
+    justify-content: center;
+}
+.copyBtn{
+    flex:2;
+    color: rgb(237,202,161);
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.087);
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    border-radius: 5px;
+}
+.addressVerified{
+    font-size: 16px;
+    color: rgb(101, 54, 255);
+    margin-left: 20px;
+}
+.reVerifyBtn{
+    color: rgb(101, 54, 255);
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+    background-color: transparent;
+    border: 1px solid rgb(101, 54, 255);
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
 }
