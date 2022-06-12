@@ -9,49 +9,50 @@
   display: flex;
   align-items: center;
 }
-.coinName{
-    flex:3;
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 30px;
-    align-items: center;
+.coinName {
+  flex: 3;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 30px;
+  align-items: center;
 }
-.coinName img{
-    margin-right: 5px;
+.coinName img {
+  margin-right: 5px;
 }
-.coinValue{
-    flex:3;
-    display: flex;
-    justify-content: center;
+.coinValue {
+  flex: 3;
+  display: flex;
+  justify-content: center;
 }
-.transactionAmount{
-    flex:3;
-    display: flex;
-    justify-content: center;
+.transactionAmount {
+  flex: 3;
+  display: flex;
+  justify-content: center;
 }
-.transactions{
-    flex:3;
-    display: flex;
-    justify-content: center;
+.transactions {
+  flex: 3;
+  display: flex;
+  justify-content: center;
 }
-.receive{
-    font-weight: 600;
-    color: #8484F1;
-    margin-right: 10px;
-    padding-right: 10px;
-    border-right: 1px solid rgba(217, 217, 217, 0.25);
+.receive {
+  font-weight: 600;
+  color: #8484f1;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(217, 217, 217, 0.25);
 }
-.receive img{
-    margin-right: 5px;
+.receive img {
+  margin-right: 5px;
 }
-.send{
-    font-weight: 600;
-    color: #CAA276;
+.send {
+  font-weight: 600;
+  color: #caa276;
 }
-.send img{
-    margin-right: 5px;
+.send img {
+  margin-right: 5px;
 }
 
-.send:hover,.receive:hover{
-    cursor: pointer;
+.send:hover,
+.receive:hover {
+  cursor: pointer;
 }

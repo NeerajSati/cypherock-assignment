@@ -33,19 +33,48 @@ function Mainpage() {
       <div className="coinFiltersWrapper">
         <p className="coinCount">Total Coins-3</p>
         <div className="coinFilters">
-        <div className="coinFilter">
-          <img src={filter} alt="filter"></img><span className="filter">Year</span>
-          <img src={drop} alt="drop"></img></div>
-        <div className="coinFilter">
-          <img src={sort} alt="sort"></img><span className="filter">A-Z</span>
-          <img src={drop} alt="drop"></img></div>
+          <div className="coinFilter">
+            <img src={filter} alt="filter"></img>
+            <span className="filter">Year</span>
+            <img src={drop} alt="drop"></img>
+          </div>
+          <div className="coinFilter">
+            <img src={sort} alt="sort"></img>
+            <span className="filter">A-Z</span>
+            <img src={drop} alt="drop"></img>
+          </div>
         </div>
       </div>
-      <SingleTransaction name="BITCOIN" val="BTC 0.0025600" amount="USD 0.5268" src={bitcoinLogo}/>
-      <SingleTransaction name="ETHEREUM" val="ETH 0.0025600" amount="USD 0.5268" src={etherLogo} />
-      <SingleTransaction name="BINANCE COIN" val="BTC 0.0025600" amount="USD 0.5268" src={binanceLogo}/>
-      <SingleTransaction name="BITCOIN" val="BTC 0.0025600" amount="USD 0.5268" src={bitcoinLogo}/>
-      <SingleTransaction name="ETHEREUM" val="ETH 0.0025600" amount="USD 0.5268" src={etherBlueLogo}/>
+      <SingleTransaction
+        name="BITCOIN"
+        val="BTC 0.0025600"
+        amount="USD 0.5268"
+        src={bitcoinLogo}
+      />
+      <SingleTransaction
+        name="ETHEREUM"
+        val="ETH 0.0025600"
+        amount="USD 0.5268"
+        src={etherLogo}
+      />
+      <SingleTransaction
+        name="BINANCE COIN"
+        val="BTC 0.0025600"
+        amount="USD 0.5268"
+        src={binanceLogo}
+      />
+      <SingleTransaction
+        name="BITCOIN"
+        val="BTC 0.0025600"
+        amount="USD 0.5268"
+        src={bitcoinLogo}
+      />
+      <SingleTransaction
+        name="ETHEREUM"
+        val="ETH 0.0025600"
+        amount="USD 0.5268"
+        src={etherBlueLogo}
+      />
     </div>
   );
 }
