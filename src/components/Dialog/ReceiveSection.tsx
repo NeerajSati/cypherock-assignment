@@ -1,6 +1,4 @@
 import React from "react";
-import arrowicon from "../../images/arrowicon.svg";
-import tickicon from "../../images/tickicon.png";
 
 function ReceiveSection() {
   return (
